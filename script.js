@@ -54,7 +54,7 @@ document.getElementById('url').addEventListener('input', async () => {
 
     if (url) {
         try {
-            const response = await fetch('YOUR_BACKEND_URL/get_resolutions', {
+            const response = await fetch('https://you2-mp4.onrender.com/get_resolutions', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
